@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+
+body {
+    background-color: #e56b6f;
+    box-sizing: border-box;
+    color: #f1faee;
+    font-size: larger;
+    font-family: 'Overpass', sans-serif;
+}
+
+button .light{
+    background-color: #100;
+    font-size: medium;
+    color: #f1faee;
+}
+
+button .dark{
+    background-color: #fff;
+    font-size: medium;
+    color: #000;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lol {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lol>h1 {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* .lol>button {
+    width: 75px;
+    height: 75px;
+    word-wrap: break-word;
+    border-radius: 10px;
+    background-color: black;
+    color: #edf2f4;
+} */
+
+button:hover {
+    cursor: pointer;
+}
+
+.main>.lol {
+    position: relative;
+    top: 200px;
+}
+
+.container {
+    width: 50%;
+    background-color: #457b9d;
+    border-radius: 10px;
+    font-size: x-large;
+    color: #edf2f4;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.container2 {
+    width: 50%;
+    background-color: #457b9d;
+    border-radius: 10px;
+    font-size: x-large;
+    color: #edf2f4;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+    overflow: hidden;
+    padding-top: 0;
+    position: relative;
+    top: 180px;
+}
+
+.container2>h2 {
+    margin: 15px;
+}
+
+form>button {
+    /* background-color: rgba(255, 253, 250, 0.152); */
+    font-size: large;
+    border-radius: 3px;
+    color: black;
+}
+
+form>button:hover {
+    cursor: pointer;
+}
+
+form>input {
+    text-align: center;
+    font-size: large;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.97);
+}
+
+.idk {
+    width: 50%;
+    background-color: #457b9d;
+    border-radius: 10px;
+    font-size: large;
+    color: #edf2f4;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+}
+
+
+.idk>a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: large;
+    color: #edf2f4;
+}
+
+.container>img{
+    width:75px;
+    height: auto;
+}
+
+.container>a{
+    text-decoration: none;
+    font-size: large;
+    color:white;
+}
+
+.container>a:hover{
+    cursor: pointer;
+}

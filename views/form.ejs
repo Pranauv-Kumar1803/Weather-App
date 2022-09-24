@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="lol">
+            <h1>MyWeather App</h1>
+            <!-- <button class="bg light" onclick="thatFunc()">Dark Mode</button> -->
+        </div>
+        <div class="container2">
+            <!-- <button id="dark" onclick="myFunc()"></button> -->
+            <h2>Check Weather In Your City</h2>
+            <form action="/api/weather" method="post">
+                <input type="text" name="name" placeholder="Enter your city name">
+                <button type="submit" id="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <!-- <script>
+        function thatFunc() {
+            var element = document.body;
+            var elem2 = document.querySelector('.container2');
+            element.classList.toggle("dark-mode");
+            elem2.classList.toggle("dark-mode");
+            let d = document.querySelector('.bg');
+            if(d.classList.contains('light'))
+            {
+                d.classList.replace('light','dark');
+                d.innerHTML="Light Mode";
+            }
+            else
+            {
+                d.classList.replace('dark','light');
+                d.innerHTML="Dark Mode";
+            }
+        }
+    </script> -->
+</body>
+
+</html>
